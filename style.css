@@ -6,26 +6,26 @@ body {
 
 #container {
     /* background-color: transparent; */
-    min-width: 500px;
+    min-width: 50%;
     height: 100vh;
     /* border: 2px solid red; */
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-40%, -50%);
+    transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     text-align: center;
     align-items: center;
     color: white;
+    margin-top: 20px;
 
 }
 
 .setTimer {
     text-align: center;
-    padding: 10px;
-    min-width: 400px;
+    min-width:400px;
     height: 0px;
     background-color: #34344A;
     display: flex;
@@ -77,12 +77,15 @@ body {
 
 .setTimerButton {
     background-color: #F0F757;
-    width: 70px;
-    height: 30px;
+    width: 80px;
+    height: 40px;
   /* border: none;  */
     box-shadow: none; 
     border-radius: 20px;
     cursor: pointer;
+}
+.setTimerButton:hover{
+    background-color: #05f32d;
 }
 .currentTime{
     border-radius: 20px;
@@ -103,16 +106,26 @@ body {
 
 .set-delete-Button{
     background-color: #1D1D23;
-    width: 70px;
-    height: 30px;
+    width: 80px;
+    height: 40px;
   /* border: none;  */
     box-shadow: none; 
     color: #FFF;
     border-radius: 20px;
     cursor: pointer;
 }
-
+.set-delete-Button:hover{
+    background-color: #e8141f;
+}
 .inputTimer{
 
     font-size: 25px;
+}
+
+@media only screen and (max-width: 400px) {
+    .setTimer{
+        min-width: 300px;
+       padding: 20px;
+       height: 30px;
+    }
 }
