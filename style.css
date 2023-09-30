@@ -129,8 +129,7 @@ body {
        height: 30px;
     }
     .inputTime>input {
-        color: #05f32d;
         font-size: 25px;
-        width: 42px;
+        width: 45px;
     }
 }
