@@ -1,0 +1,118 @@
+body {
+    background-color: #1D1D23;
+    padding: 20px;
+}
+
+
+#container {
+    /* background-color: transparent; */
+    min-width: 500px;
+    height: 100vh;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-40%, -50%);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    align-items: center;
+    color: white;
+
+}
+
+.setTimer {
+    text-align: center;
+    padding: 10px;
+    min-width: 400px;
+    height: 0px;
+    background-color: #34344A;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px;
+    justify-content: space-between;
+    margin: 10px;
+
+
+}
+
+::placeholder {
+    color: #FFF;
+}
+.inputTime{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inputTime>input {
+    width: 52px;
+    color: #f2ecec;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 200;
+    line-height: normal;
+    text-decoration-line: underline;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+}
+.inputTime>div {
+    width: 52px;
+    color: #f2ecec;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 200;
+    line-height: normal;
+    text-decoration-line: underline;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+}
+
+.setTimerButton {
+    background-color: #F0F757;
+    width: 70px;
+    height: 30px;
+  /* border: none;  */
+    box-shadow: none; 
+    border-radius: 20px;
+    cursor: pointer;
+}
+.currentTime{
+    border-radius: 20px;
+    background-color: #39393E;
+    width: 200px;
+    padding: 8px;
+    margin: 10px;
+}
+.noTimers{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.timer-ended{
+    font-size: 30px;
+    color: black;
+}
+
+.set-delete-Button{
+    background-color: #1D1D23;
+    width: 70px;
+    height: 30px;
+  /* border: none;  */
+    box-shadow: none; 
+    color: #FFF;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.inputTimer{
+    
+    font-size: 25px;
+}
